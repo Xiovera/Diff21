@@ -14,7 +14,7 @@ Inicio: calcular diff
 	mostrar (diff*2)
   sino:
   	diff= 21-n
-  	mostrar diff
+  	Mostrar diff
  - fin si
 
  *Fin*
