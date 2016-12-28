@@ -1,7 +1,6 @@
 /**{
 	outline: 1px solid red;
 }*/
-
 .diff-fondo{
 	background: url(../fondo.jpg);
 
@@ -11,11 +10,12 @@
 	padding-top: 100px;
 	height: 650px;
 }
-h1, h4, label{
+h1, h3, label{
 	font-family: 'Fredoka+One',cursive;
 	color: red;
 	text-shadow: 1px 1px black;
 }
 p{
-	color: white;
+	color: black;
+	margin-top: 10px;
 }

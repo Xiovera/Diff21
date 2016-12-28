@@ -1,12 +1,14 @@
-function calcular()
+function evaluar()
 {	
-	var number1 = document.getElementById("number1").value;
-	var diff = document.getElementById("diff");
+	var numeroEntero = document.getElementById("numeroEntero").value;
+	var resta = 21-parseFloat(numeroEntero);
+	var doble = (parseFloat (numeroEntero)-21)*2;
+	var salida = document.getElementById("salida");
 
-	if(number1>21)
-
-
+	if(numeroEntero > 21){
+		salida.innerHTML = doble;
+	}
+	else{
+		salida.innerHTML = resta;
+	}
 }
-
-
-

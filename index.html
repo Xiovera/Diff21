@@ -23,31 +23,28 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="form-group">
-					 	<label class="well" for="number1">Ingresa un número entero:</label>
-					 	<input type="email" class="form-control" id="number1" placeholder="0">
+					 	<label class="well text-center" for="numeroEntero">Ingresa un número entero:</label>
+					 	<input type="text" class="form-control" id="numeroEntero" placeholder="0">
+					 	<p class="well nota">Nota: si tu número ingresado es menor a 21, se mostrará la diferencia con 21; sino se mostrará la diferencia *2.</p>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
-						<label class="well" for="mayor">¿El número ingresado es mayor que 21?</label>
-						<select class="form-control" id="mayor">
-							<option value="1">Si</option>
-							<option value="2">No</option>
-						</select>
+						<h3 class="well text-center">Mira el resultado</h3>
+						<h1 class=" well text-center" id="salida"></h1>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center">
-					<button onclick="calcular()" class="center-block btn btn-info">Calcular</button>
-					<div>
-						<h2 class="center-block" role="alert" id="diff"></h2>				
-					</div>
-				</div>					
+						<p class="text-center">
+							<button onclick="evaluar()" class="center-block btn btn-info">Calcular</button>
+						</p>
+					</div>					
 				</div>
 			</div>
+			<a class="btn btn-warning" href="https://github.com/Xiovera/Diff21">link repo </a>
 		</div>		
 	</div>
-	<a class="well" href="https://github.com/Xiovera/Diff21">link repo </a>
 </div>
 </body>
 <script src="Js/main.js"></script>
